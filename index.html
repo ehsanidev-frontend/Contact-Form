@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+</head>
+<body>
+  <header>
+    <h2>Acme Support</h2>
+    <ul>
+      <li>Home</li>
+      <li>Help</li>
+      <li>Contact</li>
+    </ul>
+  </header>
+  <hr>
+  <main>
+    <h1>Contact Us</h1>
+    <form action="..." method="post">
+
+      <label for="name">Full name</label>
+      <input type="text" name="new-user-fullname" id="user-fullname">
+
+      <label for="email">Email</label>
+      <input type="email" name="new-user-email" id="user-email">
+
+      <label for="subject">Subject</label>
+      <select>
+        <option value="1">Choose a topic</option>
+        <option value="2">Debugging</option>
+        <option value="3">Collabration</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea minlength="10"></textarea>
+
+      <Fieldset>
+        <legend>How did you hear about us?</legend>
+        <input type="radio" name="new-user-options" id="search">Search
+        <input type="radio" name="new-user-options" id="friend">Friend
+        <input type="radio" name="new-user-options" id="social-media">Social media
+      </Fieldset>
+
+      <input type="checkbox" name="newsletter" id="newsletter">Send me product updates
+
+      <input type="submit" value="Send message" id="form-btn">
+    </form>
+  </main>
+  <hr>
+  <footer>
+    <p>&copy; Acme Support</p>
+  </footer>
+</body>
+</html>
